@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b24512e1f3893c12d05acfbdfa8ac2c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b24512e1f3893c12d05acfbdfa8ac2c1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b24512e1f3893c12d05acfbdfa8ac2c1 = L.map(
+                "map_b24512e1f3893c12d05acfbdfa8ac2c1",
+                {
+                    center: [40.7128, -74.006],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_571be8f2243b1b04f4aa72bb17701687 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_571be8f2243b1b04f4aa72bb17701687.addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var marker_454a39783e496b4de491ce8722a367ee = L.marker(
+                [40.75731, -73.986755],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_b990572e13fb4012ddbda9cc92ff5a23 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_868968ff1c54b6b35245a1efc69852a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc7ff58cf3d1d62f73fbaa47cc547de9 = $(`<div id="html_cc7ff58cf3d1d62f73fbaa47cc547de9" style="width: 100.0%; height: 100.0%;">Times Sq-42 St (N,Q,R,W,S,1,2,3,7)/42 St (A,C,E)<br>Yolcu Sayısı: 7,777,275</div>`)[0];
+                popup_868968ff1c54b6b35245a1efc69852a4.setContent(html_cc7ff58cf3d1d62f73fbaa47cc547de9);
+            
+        
+
+        marker_454a39783e496b4de491ce8722a367ee.bindPopup(popup_868968ff1c54b6b35245a1efc69852a4)
+        ;
+
+        
+    
+    
+                marker_454a39783e496b4de491ce8722a367ee.setIcon(icon_b990572e13fb4012ddbda9cc92ff5a23);
+            
+    
+            var marker_183a32e96e12be56f6f602f0f807596c = L.marker(
+                [40.751778, -73.976845],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_d1bc3d1067328583bf217d72143c9e83 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a083dfd4cb8f02863e2950824d6a7652 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3fd00a9cf09682d4eddff73f8a426983 = $(`<div id="html_3fd00a9cf09682d4eddff73f8a426983" style="width: 100.0%; height: 100.0%;">Grand Central-42 St (S,4,5,6,7)<br>Yolcu Sayısı: 5,722,856</div>`)[0];
+                popup_a083dfd4cb8f02863e2950824d6a7652.setContent(html_3fd00a9cf09682d4eddff73f8a426983);
+            
+        
+
+        marker_183a32e96e12be56f6f602f0f807596c.bindPopup(popup_a083dfd4cb8f02863e2950824d6a7652)
+        ;
+
+        
+    
+    
+                marker_183a32e96e12be56f6f602f0f807596c.setIcon(icon_d1bc3d1067328583bf217d72143c9e83);
+            
+    
+            var marker_8a33e6a10ad3b8bd5aa1ba524dafa34b = L.marker(
+                [40.749718, -73.98782],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_96503e22cb7eef2255c6aa22f8b2363e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fb88e75edf656c7209b797f6d521ebb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4faa89b29966cc5291553f5d047642fb = $(`<div id="html_4faa89b29966cc5291553f5d047642fb" style="width: 100.0%; height: 100.0%;">34 St-Herald Sq (B,D,F,M,N,Q,R,W)<br>Yolcu Sayısı: 4,475,730</div>`)[0];
+                popup_fb88e75edf656c7209b797f6d521ebb4.setContent(html_4faa89b29966cc5291553f5d047642fb);
+            
+        
+
+        marker_8a33e6a10ad3b8bd5aa1ba524dafa34b.bindPopup(popup_fb88e75edf656c7209b797f6d521ebb4)
+        ;
+
+        
+    
+    
+                marker_8a33e6a10ad3b8bd5aa1ba524dafa34b.setIcon(icon_96503e22cb7eef2255c6aa22f8b2363e);
+            
+    
+            var marker_881fbd678c18871699fd167488203537 = L.marker(
+                [40.735737, -73.98995],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_8302ceb507b0a23493199b10818ec122 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4b2bce9936c5bfe136810a2f0f3c5e59 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c23bd7ad6ca362a74ae71be5e1cdcf2 = $(`<div id="html_9c23bd7ad6ca362a74ae71be5e1cdcf2" style="width: 100.0%; height: 100.0%;">14 St-Union Sq (L,N,Q,R,W,4,5,6)<br>Yolcu Sayısı: 4,027,086</div>`)[0];
+                popup_4b2bce9936c5bfe136810a2f0f3c5e59.setContent(html_9c23bd7ad6ca362a74ae71be5e1cdcf2);
+            
+        
+
+        marker_881fbd678c18871699fd167488203537.bindPopup(popup_4b2bce9936c5bfe136810a2f0f3c5e59)
+        ;
+
+        
+    
+    
+                marker_881fbd678c18871699fd167488203537.setIcon(icon_8302ceb507b0a23493199b10818ec122);
+            
+    
+            var marker_c1697f7f7e9fc16601985712439ed34b = L.marker(
+                [40.75229, -73.99339],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_0b40bb83e5505aa10f7323bf2b70631e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c705f1e32882fdb248a5af5eb3bad865 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccbc089e3c68bae4821143b8e7c2f213 = $(`<div id="html_ccbc089e3c68bae4821143b8e7c2f213" style="width: 100.0%; height: 100.0%;">34 St-Penn Station (A,C,E)<br>Yolcu Sayısı: 3,186,130</div>`)[0];
+                popup_c705f1e32882fdb248a5af5eb3bad865.setContent(html_ccbc089e3c68bae4821143b8e7c2f213);
+            
+        
+
+        marker_c1697f7f7e9fc16601985712439ed34b.bindPopup(popup_c705f1e32882fdb248a5af5eb3bad865)
+        ;
+
+        
+    
+    
+                marker_c1697f7f7e9fc16601985712439ed34b.setIcon(icon_0b40bb83e5505aa10f7323bf2b70631e);
+            
+    
+            var marker_b2f6fa673f0261fa1bc4cb9d8aac03b3 = L.marker(
+                [40.710373, -74.00657],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_ab8ced188a92a702fafa972a8619f31f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2b7d63821b30777d0bde4cd467a80b41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fbc39fa21b55322101220e709abb6077 = $(`<div id="html_fbc39fa21b55322101220e709abb6077" style="width: 100.0%; height: 100.0%;">Fulton St (A,C,J,Z,2,3,4,5)<br>Yolcu Sayısı: 3,137,541</div>`)[0];
+                popup_2b7d63821b30777d0bde4cd467a80b41.setContent(html_fbc39fa21b55322101220e709abb6077);
+            
+        
+
+        marker_b2f6fa673f0261fa1bc4cb9d8aac03b3.bindPopup(popup_2b7d63821b30777d0bde4cd467a80b41)
+        ;
+
+        
+    
+    
+                marker_b2f6fa673f0261fa1bc4cb9d8aac03b3.setIcon(icon_ab8ced188a92a702fafa972a8619f31f);
+            
+    
+            var marker_fc55ec278cb046f04e63ea0405b4fe62 = L.marker(
+                [40.750374, -73.99106],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_aad927cb41e9db6afd22de09485ed44d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_52875486beb2c11a71f1b324ae453211 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_27b3baf4c4551daaa7b795ae66064459 = $(`<div id="html_27b3baf4c4551daaa7b795ae66064459" style="width: 100.0%; height: 100.0%;">34 St-Penn Station (1,2,3)<br>Yolcu Sayısı: 3,020,481</div>`)[0];
+                popup_52875486beb2c11a71f1b324ae453211.setContent(html_27b3baf4c4551daaa7b795ae66064459);
+            
+        
+
+        marker_fc55ec278cb046f04e63ea0405b4fe62.bindPopup(popup_52875486beb2c11a71f1b324ae453211)
+        ;
+
+        
+    
+    
+                marker_fc55ec278cb046f04e63ea0405b4fe62.setIcon(icon_aad927cb41e9db6afd22de09485ed44d);
+            
+    
+            var marker_25483e657c1fdf749c6d3df5ef545058 = L.marker(
+                [40.768295, -73.981735],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_c0aff7ad2ceaefef7f1c78ce7df597eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_91b715845824390b9a582f2eac28558e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16720432aed47ed0f90b219170265112 = $(`<div id="html_16720432aed47ed0f90b219170265112" style="width: 100.0%; height: 100.0%;">59 St-Columbus Circle (A,B,C,D,1)<br>Yolcu Sayısı: 2,911,221</div>`)[0];
+                popup_91b715845824390b9a582f2eac28558e.setContent(html_16720432aed47ed0f90b219170265112);
+            
+        
+
+        marker_25483e657c1fdf749c6d3df5ef545058.bindPopup(popup_91b715845824390b9a582f2eac28558e)
+        ;
+
+        
+    
+    
+                marker_25483e657c1fdf749c6d3df5ef545058.setIcon(icon_c0aff7ad2ceaefef7f1c78ce7df597eb);
+            
+    
+            var marker_c8fc381767ef38f483a14f4d5769a354 = L.marker(
+                [40.758663, -73.98133],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_ce3a3c9d99131e1926b3714936f87d64 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf8bfc33c160cad9fa0589d326ab2d9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a6c10fba6ff5041c96a62b71b836b784 = $(`<div id="html_a6c10fba6ff5041c96a62b71b836b784" style="width: 100.0%; height: 100.0%;">47-50 Sts-Rockefeller Ctr (B,D,F,M)<br>Yolcu Sayısı: 2,524,840</div>`)[0];
+                popup_cf8bfc33c160cad9fa0589d326ab2d9a.setContent(html_a6c10fba6ff5041c96a62b71b836b784);
+            
+        
+
+        marker_c8fc381767ef38f483a14f4d5769a354.bindPopup(popup_cf8bfc33c160cad9fa0589d326ab2d9a)
+        ;
+
+        
+    
+    
+                marker_c8fc381767ef38f483a14f4d5769a354.setIcon(icon_ce3a3c9d99131e1926b3714936f87d64);
+            
+    
+            var marker_da0825c4b34cd46843706fa1b00819d7 = L.marker(
+                [40.74685, -73.891335],
+                {
+}
+            ).addTo(map_b24512e1f3893c12d05acfbdfa8ac2c1);
+        
+    
+            var icon_58fbd52a3e24bf0a238e063a1d76c20b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "subway",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15562c246e36c3609532b81158394585 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_168c2bb2c1576d5539a499857302540a = $(`<div id="html_168c2bb2c1576d5539a499857302540a" style="width: 100.0%; height: 100.0%;">74-Broadway (7)/Jackson Hts-Roosevelt Av (E,F,M,R)<br>Yolcu Sayısı: 2,418,707</div>`)[0];
+                popup_15562c246e36c3609532b81158394585.setContent(html_168c2bb2c1576d5539a499857302540a);
+            
+        
+
+        marker_da0825c4b34cd46843706fa1b00819d7.bindPopup(popup_15562c246e36c3609532b81158394585)
+        ;
+
+        
+    
+    
+                marker_da0825c4b34cd46843706fa1b00819d7.setIcon(icon_58fbd52a3e24bf0a238e063a1d76c20b);
+            
+</script>
+</html>
